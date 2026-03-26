@@ -1,5 +1,5 @@
 'use client'
-console.log("🔥 TimeSlots Loaded")
+// console.log("🔥 TimeSlots Loaded")
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Clock } from 'lucide-react'
@@ -52,11 +52,7 @@ const TimeSlots = ({ selectedDate, selectedTime, onTimeSelect }) => {
         // ✅ FINAL CHECK
         const isPast = slot.getTime() <= now.getTime()
 
-        // 🧠 DEBUG LOGS
-        console.log("------")
-        console.log("NOW (QATAR):", now.toString())
-        console.log("SLOT:", slot.toString())
-        console.log("isPast:", isPast)
+        
 
         // UI format
         let displayHour = hour > 23 ? hour - 24 : hour

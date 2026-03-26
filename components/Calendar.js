@@ -1,5 +1,5 @@
 'use client'
-console.log("🔥 calender Loaded")
+// console.log("🔥 calender Loaded")
 
 import { useState } from 'react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
@@ -88,7 +88,7 @@ const Calendar = ({ selectedDate, onDateSelect }) => {
                 const cleanDate = new Date(date)
                 cleanDate.setHours(0, 0, 0, 0)
 
-                console.log("✅ Selected Date:", cleanDate)
+                // console.log("✅ Selected Date:", cleanDate)
 
                 onDateSelect(cleanDate)
               }}

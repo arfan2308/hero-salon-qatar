@@ -36,7 +36,7 @@ const Contact = () => {
               <div>
                 <h3 className="text-white font-bold text-xl mb-2">Location</h3>
                 <a
-                  href="https://www.google.com/maps/place/Hero+Gents+Hair+Cut/@25.3127321,51.4921483,17z"
+                  href="https://www.google.com/maps/place/Hero+Gents+Hair+Cut/@25.3127321,51.4921483,17z/data=!3m1!4b1!4m6!3m5!1s0x3e45db400f475f89:0x793f1bd217f8b87f!8m2!3d25.3127321!4d51.4947232!16s%2Fg%2F11dxmn4frz?hl=en&entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-red-500 transition-colors"
